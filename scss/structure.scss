@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $main-font;
+}
+
+p, a, button, span, label {
+    font-family: $sub-font;
+}
+
+button {
+    padding: 10px 20px;
+
+    color: white;
+
+    border: transparent;
+    background-color: $main-color;
+}
+
+button:hover {
+    background-color: $sub-color
+}
+
+.logo {
+    color: $main-color;
+    margin: 0;
+    font-size: 36px;
+}
+
